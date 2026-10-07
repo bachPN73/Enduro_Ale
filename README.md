@@ -23,9 +23,9 @@ Average reward: 746
 
 ### Gameplay
 
-![Gameplay Result](Model/enduro_test.gif)
+![Gameplay Result](https://github.com/bachPN73/Enduro_Ale/blob/main/Model/enduro_test_ep1000.gif)
 
-**Video:** [Watch the full gameplay](https://github.com/bachPN73/Enduro_Ale/blob/main/Model/enduro_test_ep1000.mp4)
+**Video:** [Watch the gameplay](https://github.com/bachPN73/Enduro_Ale/blob/main/Model/enduro_test_ep1000.mp4)
 
 ### Model Outputs
 ```text
@@ -35,3 +35,16 @@ Model/
 ├── enduro_test.mp4
 └── enduro_test_ep1000.mp4
 ```
+
+##🚀 Quick Setup & Usage
+**1. Clone the repository:
+git clone [https://github.com/bachPN73/Enduro_Ale.git](https://github.com/bachPN73/Enduro_Ale.git)
+cd Enduro_Ale
+**2. Install dependencies:
+pip install torch torchvision gymnasium ale-py numpy opencv-python Pillow
+**3. Configure and Run:
+Open the enduro-dqn-ale.ipynb notebook.
+
+To Train: Run the training cells. The agent will initialize the environment, warm up the replay buffer, and begin the epsilon-greedy training loop.
+
+To Evaluate: Skip the training loop, load the pre-trained weights (e.g., dqn_enduro_final.pth) in the evaluation section, and run the cells to render the gameplay and save the output video (enduro_test.mp4).
