@@ -49,5 +49,5 @@ pip install torch torchvision gymnasium ale-py numpy opencv-python Pillow
 **3. Configure and Run:
 
 - **Open the enduro-dqn-ale.ipynb notebook.
-- **To Train: Run the training cells. The agent will initialize the environment, warm up the replay buffer, and begin the epsilon-greedy training loop.
+- **To Train: Run the training cells. 
 - **To Evaluate: Skip the training loop, load the pre-trained weights (e.g., dqn_enduro_final.pth) in the evaluation section, and run the cells to render the gameplay and save the output video (enduro_test.mp4).
